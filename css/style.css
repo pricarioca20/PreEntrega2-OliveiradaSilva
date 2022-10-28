@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+
+nav ul li{
+    background-color: greenyellow;
+    margin: 10px;
+    padding: 1%;
+    border-radius: 5px;
+}
+
+h1{
+    background-color: darkseagreen;
+    justify-content: center;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px; 
+}
+
+.contenedor_padre {
+    animation-duration: 5s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+ }
+ 
+ 
+ @keyframes aparecer {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+ }
+ 
+
+ul{
+    list-style: none;
+    font-size: 10;
+    text-align: center;
+    color: darkblue;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.empresa{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    color: black;
+    background-color: rgb(80, 255, 138);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    width: 600px;
+    height: 150px;
+}
+
+
+h3{
+    color: black;
+    background-color: coral;
+    font-family: 'Times New Roman', Times, serif;
+    width: 600px;
+    height: 150px;
+}
+
+.contenedor_padre{
+display: flex;
+flex-wrap: column;  
+justify-content: center;
+height: 300px;
+}
+
+.contenedor_padre img{
+border-radius: 5%;
+}
+
+.contenedor_padre img:hover{
+    opacity: 1;
+}
+
+.fotosgaleria{
+    justify-self: center;
+    align-self: center;
+
+}
+
+footer{
+    display: flex;
+}
+
+footer{
+    background-color: blanchedalmond;
+    grid-area: pie;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.azulbutton{
+    padding: 1%;
+    border-radius: 10%;
+    background-color: aquamarine;
+}
+
+.azulbutton:hover{
+    transform: scale(3,3) rotate(340deg);
+    background-image: linear-gradient(gray,black);
+}    
+}
+
+
+h1{
+    height: 100px;
+    transition: height 2s;
+
+       
+ }
+ h1:hover {
+    height: 200px;
+ }
+
+
+
+div{
+        margin: 30px;
+        background-color: aquamarine;
+        height: 50px;
+    
+}
+
+
+
+@media screen and (max-width: 720px) {
+    .empresa{
+            background-color: rgb(180, 70, 70);
+      }
+    }
+
+
+@media screen and (max-width: 1024px) {
+        .empresa{
+                background-color: steelblue;
+          }
+        }
+
+        {
+            margin: 30px;
+            background-color: black;
+            height: 400px;
+        }
+        
+        
+
+
+
+            .fotosgaleria{
+                display: flex; flex-direction: row;
+                flex-wrap: column;  
+                justify-content: center;
+                height: 300px;
+                }
+                
+                .fotosgaleria img{
+                border-radius: 5%;
+                }
+                
+                .fotosgaleria img:hover{
+                    opacity: 1;
+                }
+
+
+h7{
+    color: black;
+    background-color: rgb(10, 57, 79);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1000px;
+    height: 500px;
+    font-size: 30px; 
+
+}
